@@ -16,7 +16,7 @@ def somme(val_1, val_2):
         mess = "Le nombre est pair."
     else: 
         mess = "Le nombre est impair."
-    return "<h2>La somme de vos deux valeurs est : </h2>" + str(num) + str(mess)
+    return f"<h2>La somme de vos deux valeurs est : {num}</h2><p>{mess}</p>"
 
 
 @app.route("/contact/")
